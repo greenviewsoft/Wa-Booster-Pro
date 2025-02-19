@@ -1,0 +1,22 @@
+{
+    "name": "tipusultan/whatsapp-api",
+    "description": "A simple Laravel package for sending WhatsApp messages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tipusultan\\WhatsappApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tipusultan\\WhatsappApi\\WhatsappApiServiceProvider"
+            ]
+        }
+    }
+}
