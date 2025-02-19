@@ -5,7 +5,7 @@ A lightweight Php Packages library for interacting with WhatsApp Web API.
 ## Installation
 
 ```bash
-npm install whatsapp-api
+Composer Tipusultan/whatsapp-api
 ```
 
 ## Quick Start
